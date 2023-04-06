@@ -1,0 +1,8 @@
+                                        Базы данных и SQL
+
+Lecture - 1                     -   Урок 1. Инструменты для работы с базами данных
+                                    -   Установка MySQL 8 на Windows 10
+                                        -   Запуск MySQL Workbench
+                                        -   Видео-инструкция – Установка MySQL 8 на Windows 10
+                                    -   Установка в Linux (дистрибутив Ubuntu)
+                                        -   Запуск утилиты mysqld_multi в Linux (дистрибутив Ubuntu)
