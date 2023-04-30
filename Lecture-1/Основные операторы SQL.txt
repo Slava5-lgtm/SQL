@@ -47,3 +47,15 @@ Transaction Control Language (TCL) – группа операторов для 
     ● MSMS               -  компания Microsoft, только для MSSQL
     ● PGAdmin            -  open-source, только для Postgres
 
+
+SELECT * FROM имя таблицы   -    вывода всех пользователей через SELECT (оператор “*”)
+
+SELECT name, passoword FROM test      -    Вывод ограниченного числа столбцов это name, passoword и 
+                                           откуда получаем FROM (имя базы данных) 
+
+
+SELECT * FROM test WHERE login = "test1234";      -    Вывести все поля из таблицы test где login
+                                                       начинаеться с test1234    
+
+
+
