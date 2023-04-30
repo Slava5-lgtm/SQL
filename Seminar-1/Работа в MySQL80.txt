@@ -1,8 +1,26 @@
+                    Создаем таблицу
+
 Заходим в MySQL80 Workbench -> Local instance MySQL80 -> Schemas -> Правой кнопкой мыши по облости(ПКМ)
 (Schemas) -> Creale Schema... -> Name (названия нашей схемы (seminar1))-> Apply -> Apply -> Finish (База
 даных создона (seminar1)) -> (ПКМ) Tables выбираем Create Table -> Table Name (задаем название для нашей
 таблицы (test)) -> Colume Name (заполняем таблицу при этом первое поле появиться автоматически (idtes
 это будет первичным ключом (для того что бы зделать поле первичным ключом поставить галочку в РК по
-умолчанию будит INT и для первичнного ключа тавиться атрибут NN))) -> все остольные поля мы можем
-задать сами->->->->->
-50 минут
+умолчанию будит INT и для первичнного ключа ставиться атрибут NN))) -> все остольные поля мы можем
+задать сами -> создаем TEST_NAME (Datatype отовляем VARCHAR(45)) и создаем TEST_DATE (Datatype меняем на
+DATE) -> когда определились какие поля нам нужны нажимаем Apply -> Apply -> Finish -> Все таблица создана
+
+                    Заполняем таблицу
+
+В дереве выбираем seminar1 -> test -> вводим данные в таблицу -> Apply -> Apply
+
+                    Задача - 1
+
+
+MySQL, используя MySQL Workbench. Заполните БД тестовыми значениями
+
+students                teachers                courses
+● name_student        ● name_teacher           ● name_course
+● email               ● post                   ● name_student
+● phone_number                                 ● name_teacher
+
+1.04 закончил смотреть
